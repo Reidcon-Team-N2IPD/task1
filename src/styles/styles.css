@@ -204,7 +204,7 @@ li.nav-list__item a:hover {
 .content-table {
   margin-top: 3rem;
   width: 65vw;
-  height: 40vh;
+  height: 30rem;
   font-size: 1.5rem;
   border-collapse: collapse;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
