@@ -126,7 +126,13 @@ li.nav-list__item a:hover {
   background-color: #ddd;
 }
 
+.hero a {
+  display: inline-block;
+  width: 14.6rem;
+}
+
 .hero-desc__button {
+  cursor: pointer;
   margin-top: 2rem;
   background-color: #fcaf58;
   color: #000;
