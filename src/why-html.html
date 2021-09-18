@@ -111,7 +111,7 @@
           <label>Gender: </label>
         </div>
         <div class="genders">
-          <input type="radio" name="gender" id="gender1">
+          <input type="radio" name="gender" id="gender1" required>Gender
           <label for="gender1">Male</label>
           <input type="radio" name="gender" id="gender2">
           <label for="gender2">Female</label>
@@ -120,7 +120,7 @@
       </div>
       <div class="contact-form__control">
         <label for="academic-year">Academic Year: </label>
-        <input list="years" name="academic-year" placeholder="Select from list">
+        <input list="years" name="academic-year" placeholder="Select from list" required>
         <datalist id="years">
           <option value="1">
           <option value="2">
@@ -144,7 +144,7 @@
       <div class="contact-form__control">
         <label for="comment">Comment: </label>
         <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Your feedback"
-          class="feedback"></textarea>
+          class="feedback" required></textarea>
       </div>
       <div class="contact-form__control--buttons">
         <button class="submit" role="submit">Submit</button>
