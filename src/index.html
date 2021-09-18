@@ -7,16 +7,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
-      rel="stylesheet"
+    rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+        rel="stylesheet"
+        type="text/css"
+    />
+    </noscript>
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Reidcon Task 1</title>
   </head>
 
   <body>
     <header class="header">
-      <img src="./images/logo-min.png" alt="Logo" class="logo" />
+      <img src="./images/logo-min.png" alt="Logo" class="logo" width="1500" height="1500" />
 
       <nav class="nav">
         <ul class="nav-list">
@@ -50,6 +59,8 @@
           src="./images/hero-min.png"
           alt="Showcase image"
           class="hero-showcase__image"
+          width="2280"
+          height="1282"
         />
       </aside>
     </section>
